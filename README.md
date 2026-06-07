@@ -31,7 +31,7 @@ String Manipulation
 User Input Validation
 How to Run
 Clone the repository:
-git clone https://github.com/YOUR_USERNAME/big-kajuna-burger.git](https://github.com/CharlieOvi1811/big-kajuna-burger.git
+git clone https://github.com/CharlieOvi1811/big-kajuna-burger.git
 Navigate to the project folder:
 cd big-kajuna-burger
 Run the application:
