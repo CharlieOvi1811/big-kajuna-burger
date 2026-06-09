@@ -2,6 +2,28 @@
 
 A lightweight, interactive command-line terminal application written in Python. It allows restaurant customers to browse a categorized food menu, place customized orders with validation, and view an itemized receipt including taxes and fees.
 
+
+## 📸 App Preview
+
+Here is a look at the Big Kajuna Burger terminal system in action:
+
+### 1. Main Menu and Ordering
+![Uploading Greet_Name_input_order.png…](<img width="1230" height="1022" alt="Greet_Name_input_order" src="https://github.com/user-attachments/assets/91ad2a0d-f009-4434-a6ab-ad34fc6ca933" />
+)
+
+
+### 2. Ordering
+![Big Kajuna Order Input.png](assets/<img width="911" height="835" alt="order_input" src="https://github.com/user-attachments/assets/c3583fcb-1721-405a-8a01-a49f017b6e11" />
+)
+
+
+
+###3. Order Review and Receip
+![Big Kajuna Receipt Preview]((assets/<img width="1058" height="786" alt="Readback_total_tax_service_fee" src="https://github.com/user-attachments/assets/371269e1-2ea5-40f8-8627-2aac1f589236" />
+)
+
+
+
 ---
 
 ## 🚀 Features
