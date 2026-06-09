@@ -1,53 +1,70 @@
-# big-kajuna-burger
-Hamburger Ordering System
-🍔 Big Kajuna Burger Ordering System
+# 🍔 Big Kajuna Burger Ordering System
 
-A beginner-friendly Python restaurant ordering system that allows customers to place orders, calculate taxes and service fees, and receive a detailed receipt.
+A lightweight, interactive command-line terminal application written in Python. It allows restaurant customers to browse a categorized food menu, place customized orders with validation, and view an itemized receipt including taxes and fees.
 
-Features
-Menu organized by categories
-Burgers
-Sandwiches
-Sides
-Desserts
-Drinks
-Accepts item names in any capitalization
-Input validation for quantities
-Handles invalid menu selections
-Allows multiple items per order
-Calculates:
-Subtotal
-IVA Tax (2%)
-Service Fee (10%)
-Final Total
-Prints a professional receipt
-Technologies Used
-Python 3
-Dictionaries
-Loops
-Conditionals
-Exception Handling
-String Manipulation
-User Input Validation
-How to Run
-Clone the repository:
-git clone https://github.com/CharlieOvi1811/big-kajuna-burger.git
-Navigate to the project folder:
-cd big-kajuna-burger
-Run the application:
-python big_kajuna_burger.py
-Example Features
-Order burgers, sandwiches, sides, desserts, and drinks
-Add multiple items to an order
-Display available menu items if an invalid choice is entered
-Automatically calculate taxes and service charges
-Future Improvements
-Menu selection by number
-Save orders to a file
-Daily sales reporting
-Loyalty rewards system
-Graphical User Interface (GUI)
-Online ordering integration
+---
+
+## 🚀 Features
+
+*   **Personalized Experience**: Welcomes customers by name.
+*   **Categorized Menu**: Features Burgers, Sandwiches, Sides, Desserts, and Drinks with live prices.
+*   **Smart Order Validation**: Prevents invalid orders and non-numeric quantities.
+*   **Cumulative Cart**: Allows adding multiple items and automatically calculates dynamic quantities.
+*   **Itemized Receipt**: Automatically calculates a 2% IVA tax, a 10% service fee, and outputs a formatted receipt.
+
+---
+
+## 🛠️ Requirements
+
+*   **Python 3.x** installed on your system.
+
+---
+
+## 💻 How to Run
+
+1. **Clone or Download** this repository.
+2. Open your terminal or command prompt.
+3. Navigate to the project directory:
+   ```bash
+   cd /path/to/big-kajuna-burger
+   ```
+4. Run the Python file:
+   ```bash
+   python main.py
+   ```
+
+---
+
+## 📋 Menu Reference
+
+| Category | Item | Price |
+| :--- | :--- | :--- |
+| **Burgers** | Big Kajuna Cheeseburger | $5.99 |
+| | Big Kajuna Texan Burger | $7.99 |
+| | Big Kajuna Double Burger | $8.99 |
+| **Sandwiches** | Kajuna Philly Sandwich | $5.99 |
+| | Kajuna Hero Sandwich | $6.99 |
+| | Kajuna Italian Sandwich | $7.99 |
+| **Sides** | Fries | $2.99 |
+| | Onion Rings | $3.49 |
+| | Mozzarella Sticks | $4.99 |
+| | Fried Mushrooms | $6.99 |
+| **Desserts** | Kajuna Ice Cream | $2.99 |
+| | Kajuna Brownie | $3.99 |
+| | Kajuna Cookie | $1.99 |
+| **Drinks** | Kajuna Soda | $1.99 |
+| | Kajuna Spirit | $0.99 |
+| | Milkshake | $4.49 |
+
+---
+
+## 🧾 Calculations Breakdown
+
+The final receipt automatically calculates fees based on the user's initial subtotal:
+* **Subtotal**: Sum of all items and quantities.
+* **IVA**: 2% of the subtotal.
+* **Service Fee**: 10% of the subtotal.
+* **Total**: Subtotal + IVA + Service Fee.
 Author
 
 Carlos Oviedo
